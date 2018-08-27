@@ -10,7 +10,6 @@ def print_status_of_computer(comp):
         print("Computer had selected 'Paper'")
     else:
         print("Computer had selected 'Rock'")
-        
 def play_game(user,comp):
     computer_score=0
     user_score=0
@@ -21,7 +20,6 @@ def play_game(user,comp):
     else:
         pass
     return [user_score, computer_score]
-
 Flag=True
 while(Flag):
     user=int(input("Enter 1 for scissors\nEnter 2 for paper\nEnter 3 for Rock\n"))
